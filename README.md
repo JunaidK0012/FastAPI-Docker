@@ -1,3 +1,8 @@
+
+# Project Title
+
+A brief description of what this project does and who it's for
+
 # FastAPI-Docker
 
 Serving ML models through FastAPI and Docker
@@ -15,13 +20,20 @@ This repository provides a streamlined setup to serve machine learning (ML) mode
 
 ##  Repository Structure
 
-├── app.py # Main FastAPI application
+├── app.py  # Main FastAPI application
+
 ├── model/ # Directory for ML model files
+
 ├── schema/ # Request/response schema definitions
+
 ├── requirements.txt # Python dependencies
+
 ├── Dockerfile # Instructions to build Docker image
+
 ├── .gitignore # Files/folders to ignore in Git
+
 └── LICENSE # Apache 2.0 open-source license
+
 
 
 ##  Prerequisites
