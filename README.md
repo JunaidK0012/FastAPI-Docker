@@ -1,7 +1,7 @@
 
 # Project Title
 
-A brief description of what this project does and who it's for
+Serving ML models through FastAPI and Docker
 
 # FastAPI-Docker
 
