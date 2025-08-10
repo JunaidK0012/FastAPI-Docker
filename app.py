@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 from schema.user_input import UserInput
+from schema.prediction_response import PredictionResponse
 import pickle
 import pandas as pd 
 from model.predict import predict_output,model,MODEL_VERSION
@@ -28,7 +29,7 @@ def health_check():
 
     }
 
-@app.post('/predict')
+@app.post('/predict',response_model=PredictionResponse)
 def predict_premium(data: UserInput):
 
     user_input = {
