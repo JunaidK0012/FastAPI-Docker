@@ -1,8 +1,3 @@
-
-# Project Title
-
-Serving ML models through FastAPI and Docker
-
 # FastAPI-Docker
 
 Serving ML models through FastAPI and Docker
